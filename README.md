@@ -3,7 +3,7 @@ Single LED  strobe integrated directly into the RC receiver of drone.
 
 Was looking for a way to add a simple LED strobe to my drone build.  Seaching the web I was unable to find anything simple.  Being new to Arduino coding I didn't know enough to beable to create it myself.  The key to making since of this this code below to me was in knowing that (pertaining to the physical switch on the transmitter) 1000 was the value for 'Off' and 2000 was the value for 'On'.  Anythong over 1500 would be on and anything less than would be off.  
 
-```
+```c++
 //leds in pins 13, 11, 9, and 7 (to make it easy to put them on i did every other pin)
 //use a paperclip for ground
 //12, 11, 10, 9, 8, 7, 6, 5, 4
